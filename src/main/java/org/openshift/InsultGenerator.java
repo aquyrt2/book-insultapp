@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class InsultGenerator {
 	public String generateInsult() {
-		String words[][] = {{"domme", "luie", "dikke"}, {"gedachtenloze", "bodemloze", "vervelende"}, {"Eikel", "Klootzak", "Zakkenwasser"}};
+		String words[][] = {{"Domme", "Luie", "Dikke"}, {"gedachtenloze", "bodemloze", "vervelende"}, {"Eikel", "Klootzak", "Zakkenwasser"}};
 		String article = "een";
 		String firstAdjective = words[0][new Random().nextInt(words[0].length)];
 		String secondAdjective = words[1][new Random().nextInt(words[1].length)];
